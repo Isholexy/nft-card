@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "outfit", sans-serif;
+  font-size: 18px;
+  /* text-align: center; */
+  /* background-color: hsl(217, 54%, 11%); */
+
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+width: 350px;
+padding: 30px;
+border-radius: 1rem;
+background-color: hsl(216, 50%, 16%);
+}
+
+.header img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.header h1{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.header p{
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.first-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 5px; */
+}
+
+.last-icon{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 15px; */
+}
+
+.eth,
+.time{
+  margin-left: 5px;
+}
+
+.eth{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.time{
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  color: hsl(211, 12%, 48%);
+  background-color: hsl(211, 12%, 48%) ;
+  margin-bottom: 15px;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img{
+  width: 50px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50px;
+}
+
+.avatar-creation{
+  color: hsl(215, 51%, 70%);
+  margin-left: 20px;
+}
+
+.name{
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
